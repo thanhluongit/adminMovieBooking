@@ -1,0 +1,12 @@
+.modal-open {
+    .header {
+        opacity: .5;
+    }
+}
+
+.navbar {
+    .dropdown-toggle::after {
+        display: none;
+    }
+}
+

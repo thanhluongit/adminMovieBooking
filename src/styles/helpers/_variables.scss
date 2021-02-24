@@ -1,0 +1,52 @@
+// BACKGROUND COLOR
+$background: ("primary": #fa4226,
+    "secondary": #4a4a4a,
+    "white": #ffffff,
+    "black": #222222,
+    "black_1": #4a4a4a,
+    "grey_1": #9b9b9b,
+    "green": #00ac4d,
+    "hell_blue": #60c5ef,
+    "film_star": #1f2e46,
+    "btn_buy_now": #ce3017,
+    "border_movie_time": #ebebec,
+    "border_hour_link": #e4e4e4);
+
+// TEXT COLOR
+$txtColor: ("primary": #fa4226,
+    "secondary": #4a4a4a,
+    "white": #ffffff,
+    "white_2": #e9e9e9,
+    "black": #000000,
+    "black_1": #4a4a4a,
+    "black_2": #333333,
+    "grey_1": #949494,
+    "grey_2": #9b9b9b,
+    "green": #00ac4d,
+    "address_text_name": #8bc541,
+    "hour_link_header" : #108f3e);
+
+// FONT SIZES
+$fontSize: ("h4": 32px,
+    "h5": 24px,
+    "h6": 20px,
+    "subtitle1": 13px,
+    "subtitle2": 12px,
+    "body1": 16px,
+    "body2": 14px);
+
+// FONT WEIGHTS
+$fontWeight:("bold": 700,
+    "medium": 600,
+    "regular":400,
+    "light":300);
+// SPACING
+$spacing: 10px;
+
+// Responsive
+$breakpoints: ('extra-large': 1199px,
+    'large': 991px,
+    'medium': 767px,
+    'small': 575px,
+    'x-small': 399px,
+)

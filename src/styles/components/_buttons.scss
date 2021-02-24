@@ -1,0 +1,139 @@
+.btn-location {
+  margin: 0;
+  border: none;
+  background-color: getBg("white");
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-trailer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  z-index: 3;
+  background: 0 0;
+  border: none;
+  visibility: hidden;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-buy-ticket {
+  background-color: getBg("primary") !important;
+  @include text(getColor("white") !important, getFz("body2"), getFw("regular"));
+
+  &:hover {
+    color: getColor("white");
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  background-color: getBg("black_1") !important;
+  }
+}
+
+.btn-buy-now {
+  position: absolute;
+  left: 0;
+  top: 340px;
+  width: 100%;
+  @include text(getColor("white"), getFz("body1") + 2, getFw("regular"));
+  text-transform: uppercase;
+  background-color: getBg("btn_buy_now");
+  padding: spacing(1);
+  text-align: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  visibility: hidden;
+
+  &:hover {
+    background-color: getBg("primary");
+    color: getColor("white");
+    text-decoration: none;
+  }
+}
+
+.btn-view-more {
+  border: 1px solid getBg("grey_1");
+  @include text(getColor("grey_1"), getFz("body2"), getFw("regular"));
+  font-family: "SF Regular";
+  text-align: center;
+  background: 0 0;
+  padding: spacing(0.7, 2.5);
+  margin: auto;
+  margin-top: spacing(5.5);
+  margin-bottom: spacing(2);
+  display: block;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: all .2s;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+
+  &:hover {
+    background-color: getBg("primary");
+    border-color: getBg("primary");
+    color: getColor("white");
+  }
+}
+
+.btn-app {
+  @include text(getColor("white"), getFz("body1"), getFw("bold"));
+  background-color: getBg("primary");
+  padding: spacing(1, 2);
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-apply {
+  font-size: getFz("subtitle1");
+  padding: 0;
+  width: 40%;
+  height: 30px;
+  display: inline-block;
+  margin-bottom: spacing(2);
+}
+
+.btn-book-ticket {
+  width: 100%;
+  padding: spacing(1, 0);
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
